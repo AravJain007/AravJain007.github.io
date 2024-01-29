@@ -23,7 +23,7 @@ My portfolio website is a representation of my journey, skills, and passion for 
 
 ## Getting Started
 
-To explore my portfolio, simply visit [Arav Jain's Portfolio](https://AravJain007/AravJain007.github.io). You can navigate through different sections to learn more about me and my projects.
+To explore my portfolio, simply visit [Arav Jain's Portfolio](https://AravJain007.github.io/). You can navigate through different sections to learn more about me and my projects.
 
 If you want to run it locally:
 
