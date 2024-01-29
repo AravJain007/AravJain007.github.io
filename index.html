@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARAV JAIN - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <h1>Arav Jain's Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+        <p class="header-sub">Generative AI | Machine Learning </p>
+    </header>
+
+    <section id="about">
+        <h2 pad="20px">About Me</h2>
+        <div class = "about-container">
+            <img src="my_imge.jpg" alt="Arav Jain's Photo" class="about-photo">
+            <div class="about-content">
+                <p>
+                    Welcome to my digital space, where my passion for artificial intelligence (AI) unfolds. With a foundation in machine learning, deep learning, and computer vision, I have dedicated my expertise to harnessing the transformative potential of AI.
+
+                    My current focus revolves around the dynamic intersection of language processing and AI applications, specifically in the realm of Chatbots. By leveraging Language Models (LLMs), I aim to elevate human-computer interactions, offering efficient solutions to complex problems.
+
+                    This journey has not only refined my technical skills but has also sparked my curiosity about the profound impact of language on AI. Beyond technology, I am a staunch advocate for effective communication and leadership development. As an engaged member of Toastmasters International, I continuously refine my public speaking skills, seizing opportunities to inspire diverse audiences.
+
+                    Looking forward, my aspirations are rooted in the realm of multimodal models. The prospect of crafting models capable of processing diverse data forms, akin to human-like cognition, fascinates and propels my future endeavors.
+
+                    Eager to collaborate, innovate, and contribute to the evolution of AI, I invite you to connect. Let's explore possibilities and forge pathways toward pioneering advancements in the fascinating world of AI and multimodal models. 
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects-container">
+
+            <div class="project" id="project1">
+                <div class="project-content">
+                    <h3>Narad</h3>
+                    <p class="project-duration">Jan 2024</p>
+                    <ul>
+                        <li><strong>Dynamic Query Resolution System:</strong> Conceptualized and executed a dynamic query resolution system, integrating cutting-edge technologies, such as AI4Bharat ASR & Translational model, FAISS vector database, Gemini API, and HuggingFace models.</li>
+                
+                        <li><strong>Scalable Product:</strong> Engineered a scalable product supporting text conversations across all 22 major languages of India. The system operates at three speeds: superfast providing responses in 40ms using semantic search, and fast/normal modes utilizing semantic search and Language Models for context-aware responses.</li>
+                
+                        <li><strong>Efficient GPU Utilization:</strong> Performed quantization on all models and integrated them onto a singular P100 GPU for streamlined and efficient GPU utilization.</li>
+                    
+                        <li><strong>Personalization and Recommendations:</strong> Personalization provided by recommendations using Contextual Bandits, Collaborative Filtering, Machine Learning, and geo-specific recommendations. A BERT and Keras based model was used to make a multi-class text and intention classifier to aid the recommendation system.</li>
+                
+                        <li><strong>Fine Tuning and RLHF:</strong> Fine-tuning and RLHF were done on custom-created Bhuvan datasets using Transformer Reinforcement Library by HuggingFace.</li>
+                    </ul>
+                    <h5>Click the video to view the <a href="https://drive.google.com/drive/folders/11ODoqNLnvPUhRi3eZ50uVys6g3HXM468">Demonstration Video</a>.</h5>
+                </div>
+                
+                <div class="project-video">
+                    <a href="https://drive.google.com/drive/folders/11ODoqNLnvPUhRi3eZ50uVys6g3HXM468" target="_blank">
+                        <video autoplay loop muted playsinline>
+                            <source src="narad.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </a>
+                </div>
+            </div>
+
+            <div class="project" id="project2">
+                <div class="project-content">
+                    <h3>Computer Vision Model Development</h3>
+                    <p class="project-duration">Jun 2023 - Present</p>
+            
+                    <ul>
+                        <li><strong>Image Classification:</strong> Implemented multiple State-Of-The-Art (SOTA) models from the ground up using PyTorch. Conducted brief training sessions on the CIFAR-100 dataset to gain insights into the functionalities of key modules introduced in Computer Vision models spanning from AlexNet to ResNeXt50.</li>
+            
+                        <li><strong>Object Detection:</strong> Utilized State-Of-The-Art Object Detection models, such as Faster RCNN and the YOLO family, to drive the development of projects encompassing floating trash detection in water bodies, human detection from UAVs, and ship detection from UAVs, showcasing proficiency in object detection applications.</li>
+            
+                        <li><strong>Image Generation:</strong> Developed Generative Adversarial Networks (GANs) like SRGAN, DCGAN, StyleGAN, StyleGAN2, BigGan from scratch in PyTorch, optimizing its performance on personal hardware.</li>
+                    </ul>
+
+                    <h5>Click the image to visit the <a href = "https://github.com/AravJain007/Computer-Vision">GitHub</a> Repository.</h5>
+                </div>
+                
+                <div class="project-links">
+                    <a href="https://github.com/AravJain007/Computer-Vision" target="_blank" rel="noopener noreferrer">
+                        <img src="VGG16-CNN-Architecture.png" alt="GitHub Link">
+                    </a>
+                </div>
+            </div>
+            
+            <div class="project" id="project3">
+                <div class="project-content">
+                    <h3>K. R. Vaayu</h3>
+                    <p class="project-duration">Oct 2023 - Nov 2023</p>
+
+                    <ul>
+                        <li><strong>Project Leadership:</strong> Spearheaded a team of six members to orchestrate the development of a project focused on mitigating port encroachment through the utilization of Unmanned Aerial Vehicles (UAVs) and advanced Object Detection techniques, with the primary objective of preventing unauthorized intrusions.</li>
+
+                        <li><strong>Recognition:</strong> The team ranked among the top 30 teams at VIT-Vellore and earned the privilege of representing VIT in the upcoming round of the Smart India Hackathon.</li>
+
+                        <li><strong>Quantized Object Detection Models:</strong> Designed and implemented two Quantized Object Detection models optimized for aerial views, specifically tailored for accurate ship detection and headcount estimation of humans.</li>
+                        <h5>Click the image to visit the <a href = "https://www.kaggle.com/code/aravjain007/how-the-ship-dataset-was-made">Kaggle</a> Notebook.</h5>
+                    </ul>
+                </div>
+                <div class="project-links">
+                    <a href="https://www.kaggle.com/code/aravjain007/how-the-ship-dataset-was-made" target="_blank" rel="noopener noreferrer">
+                        <img src="drone.avif" alt="GitHub Link">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-container">
+            <p class="social-icons">
+                Connect with me on: 
+                <a href="https://www.linkedin.com/in/arav-jain-926aa1267" target="_blank" rel="noopener noreferrer">
+                    <img src="linkedin-icon.png" alt="LinkedIn">
+                </a>
+                <a href="https://www.instagram.com/aravjain007" target="_blank" rel="noopener noreferrer">
+                    <img src="instagram-icon.png" alt="Instagram">
+                </a>
+                <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">
+                    <img src="github-icon.png" alt="GitHub">
+                </a>
+            </p>                      
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            &copy; 2024 ARAV JAIN
+        </div>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/arav-jain-926aa1267" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://www.instagram.com/aravjain007" target="_blank" rel="noopener noreferrer">Instagram</a>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const projectsContainer = document.querySelector('.projects-container');
+
+            projectsContainer.addEventListener('scroll', function() {
+                const scrollLeft = projectsContainer.scrollLeft;
+                const projectWidth = projectsContainer.querySelector('.project').offsetWidth;
+
+                // Calculate the current project index based on the scroll position
+                const currentProjectIndex = Math.round(scrollLeft / projectWidth);
+
+                // Highlight the corresponding navigation link or perform other actions as needed
+                // Example: Add a class to the current project for styling
+                const projects = document.querySelectorAll('.project');
+                projects.forEach((project, index) => {
+                    project.classList.toggle('active', index === currentProjectIndex);
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
+
+
+</body>
+</html>
