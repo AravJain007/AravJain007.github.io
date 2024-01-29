@@ -31,9 +31,18 @@ To explore my portfolio, simply visit [Arav Jain's Portfolio](https://youruserna
 If you want to run it locally:
 
 # Clone the repository
-'''git clone https://github.com/yourusername/yourrepository.git'''
+```git clone https://github.com/yourusername/yourrepository.git```
 
 # Navigate to the project directory
-cd yourrepository
+```cd yourrepository```
 
 # Open index.html in your preferred web browser
+
+# Projects
+Explore the projects section to see details about my work and contributions. Each project comes with a brief description and links to relevant resources.
+
+# Contact
+Feel free to reach out to me through email at your.email@example.com. Connect with me on LinkedIn and Instagram.
+
+# License
+This project is licensed under the MIT License. Feel free to use the code as a template for your own portfolio.
