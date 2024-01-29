@@ -32,4 +32,5 @@ If you want to run it locally:
 
 # Navigate to the project directory
 ```cd yourrepository```
+
 Open index.html in your preferred browser.
