@@ -1,6 +1,8 @@
 # Before cloning please pay attention to this one thing.
 
-As soon as you clone it go to index.html and change the formspree.io email adress. Or else I'll be recieving your emails which are meant to go to you.
+As soon as you clone it go to index.html and find the section id "contact-form" and then format the line
+``` <form action="https://formspree.io/......." class="form" method="POST" data-form >```
+Please change the URL mentioned inside form action="". You can add your own using https://www.formspree.io .
 
 # Web Portfolio
 
