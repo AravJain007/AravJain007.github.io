@@ -1,6 +1,6 @@
-Certainly! Here's an improved version for your GitHub readme file:
+# Before cloning please pay attention to this one thing.
 
----
+As soon as you clone it go to index.html and change the formspree.io email adress. Or else I'll be recieving your emails which are meant to go to you.
 
 # Web Portfolio
 
