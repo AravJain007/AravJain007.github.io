@@ -6,6 +6,8 @@ As soon as you clone it go to index.html and find the section id "contact-form" 
 
 Please change the URL mentioned inside form action="". You can add your own using https://www.formspree.io .
 
+If you don't I'll be recieving all the mails from your clients and I aint gonna turn down a nice offer 😉😉😉.
+
 # Web Portfolio
 
 Welcome to my Web Portfolio repository! 🚀 This project is built upon the fantastic template provided by [codewithsadee](https://github.com/codewithsadee/vcard-personal-portfolio), with several customizations and enhancements to reflect my passion and expertise in the field of Artificial Intelligence (AI) and Machine Learning (ML).
