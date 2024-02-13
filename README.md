@@ -20,7 +20,7 @@ Welcome to my Web Portfolio repository! 🚀 This project is built upon the fant
 
 ## Getting Started
 
-To explore my portfolio, simply visit [your portfolio URL].
+To explore my portfolio, simply visit https://aravjain007.github.io/MyPortfolio/ .
 
 ## Contributing
 
